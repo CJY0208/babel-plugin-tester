@@ -14,5 +14,10 @@ npm start
 
 <img src="./docs/babel-plugin-tester.gif">
 
+### 参考资料或辅助工具
 
+- [手把手教你开发一个 babel-plugin](https://segmentfault.com/a/1190000016459270)
+- [Babel 插件手册](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md)
+- [@babel/types](https://babeljs.io/docs/en/babel-types)
+- [AST Explorer](https://astexplorer.net/)
 
