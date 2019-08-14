@@ -12,6 +12,8 @@ npm start
 
 ## 示例
 
+图片展示有点小，Chrome 上可以 `右键 - 在新标签页中打开图片` 查看大图
+
 <img src="./docs/babel-plugin-tester.gif">
 
 ### 参考资料或辅助工具
