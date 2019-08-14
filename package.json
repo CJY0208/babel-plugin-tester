@@ -1,0 +1,16 @@
+{
+  "name": "babel-plugin-tester",
+  "version": "0.0.1",
+  "description": "用来做 babel 插件开发测试",
+  "scripts": {
+    "start": "babel --watch src --out-dir lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
