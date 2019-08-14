@@ -22,6 +22,7 @@ module.exports = function({ types: t, template }) {
       Program: {
         enter(path, { opts: { prefer = defaultPrefer, styleFileReg = defaultStyleFileReg } }) {
           // 初始化检测样式文件的正则表达式
+          
           styleFileReg = styleFileReg
             .map(reg => {
               if (Object.prototype.toString.call(reg) === '[object RegExp]') {

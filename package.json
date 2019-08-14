@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "用来做 babel 插件开发测试",
   "scripts": {
-    "start": "babel --watch src --out-dir lib"
+    "start": "babel --watch src --out-dir lib",
+    "debug": "node --inspect-brk=9783 ./node_modules/@babel/cli/bin/babel.js --watch src --out-dir lib"
   },
   "author": "",
   "license": "ISC",
